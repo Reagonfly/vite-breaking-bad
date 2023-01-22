@@ -1,0 +1,15 @@
+@use './partials/variables' as *;
+
+@import "@fontsource/montserrat";
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'montserrat';
+    background-color: $base-color;
+}
